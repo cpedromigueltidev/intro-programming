@@ -73,3 +73,27 @@ $ git status -s
 $ git branch
 -- Crear la nueva rama. El nombre de la rama depende si quieres definir una funcionalidad o ticket de problema o una rama de ambientes dev o qa.
 $ git checkout -b new_branch
+-- De aqui en adelante, los cambios que se hagan seran efectivos en esa rama.
+-- Para cambiar de rama.
+$ git checkout branch
+-- Recomiento al final ver logs.
+$ git log --oneline
+
+- Hacer merge para igual ramas.
+-- Hay que esta situado en la rama destino, es decir en la rama que se quiere actualizar y se ejecuta:
+$ git merge branch_con_cambios
+-- Recomiento al final ver logs.
+$ git log --oneline
+
+- Subir rama a un servidor o nube de almecenamiento.
+-- Suponemos que ya tienes una cuenta creada en un servicios de almacenamiento. 
+-- Usaremos como ejemplo Github. Te recomiendo ver mi archivo basic_github_tips.
+-- Crear en Github un repositorio en el cual vas a guardar tu repositorio local. Te recomiendo ver mi archivo basic_github_tips.
+-- Verificar la rama en la que estoy y subire a la nube.
+$ git branch
+-- Indicar el servidor remoto en el cual dejaremos almacenada nuestra rama. (la url la puedes traer desde github)
+$ git remote add origen http://github.com/your_count/your_repository.git
+-- Al darle enter, nos pedira usuario y contraseña. 
+-- La contraseña no es la del registro en github. La contrseña se refiere al token de seguridad que debes generar. Te recomiendo ver mi archivo basic_github_tips.
+
+... el futuro es tuyo!... no esperes y empiezalo ahora!... seguimos en linea.
