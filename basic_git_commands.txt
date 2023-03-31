@@ -50,3 +50,20 @@ $ git commit -m "renombrando arhivo"
 -- Otra forma de renombrar mas rapido saltando el paso de git add es:
 $ git mv your_file2 your_file
 $ git commit -m "Devolviendo nombre original del archivo"
+
+- Ingnorar archivos para que no sean subidos al repositorio de Git.
+-- En el repositorio local crear al archivo .gitignore.
+-- En el archivo .gitignore agrega en cada linea el nombre de o los archivos que quieres que git ignore, gurada y cierra-
+-- Al ejecutar git estatus, deberias ver solo el archivo .ignore y no los archivos en detalle a ignorar.
+$ ls
+$ git status
+-- otra opcion para ver el estatus mas resumido es:
+$ git status -s
+
+- Ver los cambios en los archivos de tu repositorio.
+-- Para ver en repositorio: $git diff
+-- Para ver en stage:       $git diff --stage
+
+- Ver el historial de cambios en tu repositorio.
+-- Con detalle: $ git log
+-- En resumen:  $ git log --oneline
