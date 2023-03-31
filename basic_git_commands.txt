@@ -67,3 +67,9 @@ $ git status -s
 - Ver el historial de cambios en tu repositorio.
 -- Con detalle: $ git log
 -- En resumen:  $ git log --oneline
+
+- Crear ramas o branch
+-- Primero ver la rama en la que estoy actualmente.
+$ git branch
+-- Crear la nueva rama. El nombre de la rama depende si quieres definir una funcionalidad o ticket de problema o una rama de ambientes dev o qa.
+$ git checkout -b new_branch
