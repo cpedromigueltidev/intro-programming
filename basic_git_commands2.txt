@@ -14,7 +14,7 @@ $ cd your_folder/
 -- para todos los archivos y sub directorios  $ git add .
 -- Verificar si esta ultima opcion es necesaria o favorable.
 
-- Selecconar archivos en la etapa "STAGE" y hacer commit
+- Selecconar archivos en la etapa "STAGE" y comprometer el trabajo es decir hacer "COMMIT"
 $ cd your_folder/
 $ git status
 $ git commit -m "COMENTARIO CON SIGNIFICADO DEL CAMBIO"
