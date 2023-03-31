@@ -17,9 +17,17 @@ $ cd your_folder/
 - Selecconar archivos en la etapa "STAGE" y hacer commit
 $ cd your_folder/
 $ git status
-$ git add -m "COMENTARIO CON SIGNIFICADO DEL CAMBIO"
+$ git commit -m "COMENTARIO CON SIGNIFICADO DEL CAMBIO"
 -- todos tus archivos en stage ahora estan en commit, y verifica con:
 $ git status
+- Otra forma es, para lo cual te abrira tu editor predeterminado para escribir y guardar tu comentario y cierras.
+$ git commit
 
-
+- Eliminando un archivo. Puedes eliminar por el explorador de archivos o por la misma consola de git bash asi:
+$ rm your_file
+-- Luego verifica que no esta el arhivo con un ls.
+-- y luego verifica tu respositorio para pasarlo a stage y despues al commit:
+$ git status
+$ git add your_file_deleted
+$ git commit -m "Eliminando archivo ya no necesario"
 
