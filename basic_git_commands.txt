@@ -15,6 +15,11 @@ $ cd your_folder/
 -- Verificar si esta ultima opcion es necesaria o favorable.
 
 - Selecconar archivos en la etapa "STAGE" y hacer commit
+$ cd your_folder/
+$ git status
+$ git add -m "COMENTARIO CON SIGNIFICADO DEL CAMBIO"
+-- todos tus archivos en stage ahora estan en commit, y verifica con:
+$ git status
 
 
 
