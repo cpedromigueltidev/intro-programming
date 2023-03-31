@@ -23,11 +23,30 @@ $ git status
 - Otra forma es, para lo cual te abrira tu editor predeterminado para escribir y guardar tu comentario y cierras.
 $ git commit
 
-- Eliminando un archivo. Puedes eliminar por el explorador de archivos o por la misma consola de git bash asi:
+- Eliminando un archivo del repositorio. Puedes eliminar por el explorador de archivos o por la misma consola de git bash asi:
+$ ls
 $ rm your_file
 -- Luego verifica que no esta el arhivo con un ls.
 -- y luego verifica tu respositorio para pasarlo a stage y despues al commit:
 $ git status
 $ git add your_file_deleted
 $ git commit -m "Eliminando archivo ya no necesario"
+-- Otra forma de eliminar mas rapido saltando el paso de git add es:
+$ git rm your_file
+$ git commit -m "Eliminando archivo ya no necesario"
 
+- Recuperar archivos borrados en etapa stage.
+$ git status
+$ git restore your_file_deleted
+$ git status
+
+- Renombrar archivos. Puedes renombrar archivos por el explorador de archivos o por la misma consola de git bash asi:
+$ ls
+$ mv your_file your_file2
+$ git status
+$ git add your_file your_file2
+$ git status
+$ git commit -m "renombrando arhivo"
+-- Otra forma de renombrar mas rapido saltando el paso de git add es:
+$ git mv your_file2 your_file
+$ git commit -m "Devolviendo nombre original del archivo"
