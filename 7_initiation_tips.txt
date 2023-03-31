@@ -1,0 +1,69 @@
+### 7 Consejos Rapidos para iniciarse en TI ###
+
+1) Definir el sistema operativo (SO) en el cual vas a trabajar.
+- Escoger entre Windows, Linux, Mac depende de la experiencia, necesidad y disponibilidad de cada quien.
+- En la actualidad las herramientas para progamar ofrecen un opcion para cada SO y tal vez otras herramientas solo sean para un SO especifico.
+- Una vez definido el SO, entonces se pueden buscar las distintas herramientas a utilizar.
+- MI RECOMENDACION: 
+-- Si se cuenta con un equipo limitado en hardware recomiendo usar Linux (el que mas le guste) con escritorio Xfc.
+-- Si no tiene experiencia en Linux y Mac y deseas avanzar rapido recomiendo usar Windows.
+-- Si tienes dispoibilidad de un Mac entonces trabajar aqui seria una buena opcion.
+
+3) Siempre descarga instaladores de las paginas o repositorios oficiales.
+- Ten cuidado de urls en foros, webs, videos o chats de youtube u otro sitios.
+- Toma tu tiempo verificando si es la pagina oficial.
+
+2) Guarda todos los trucos rapidos (como estos) ya que algun dia lo necesitaras y recordaras que en algun lado lo tienes guardado.
+- Es mejor recordar, buscar y encontrar lo que te ayudo en algun momento.
+- Saber que ya tienes la informacion que usaste en el pasado te ayudará a ahorrar tiempo en problemas iguales o similares.
+
+3) Instala un editor de texto.
+- Usar un editor de texto nativo del SO es una opcion en ocasiones limitada, por lo cual es necesario instalar uno que realmente te ayude.
+- MI RECOMENDACION:
+-- Para windows, usaria sin dudar Visual Studio Code (VS Code). Este tambien tiene version para Linux y Mac.
+-- Para Linux y Mac, usaria Atom. Este tambien tiene version para Windows y Mac.
+--- Puede ocurrir que necesiten editores de texto que puedan abrir archivos de gran tamaño (mayor a 600Mb) sin problemas. Aqui tal vez sea necesario usar alguna version paga como UltraEdit.
+
+4) Acostumbra a usar un sistema distribuido de control de versiones.
+- Esto puede parecer un gasto de tiempo o dificultad para el uso, pero usarlo te puede resolver muchos problemas serios en el futuro.
+- MI RECOMENDACION:
+-- Descargar e instalar Git (disponible para Win, Linux, Mac). 
+-- Web Oficial: https://git-scm.com (recuerda verificar! en seguridad no confies en nadie)
+-- Instala las opciones por defecto.
+-- Usa siempre siempre siempre el Bash Git, si vas usar la consola.
+-- Luego de la instalacion, configura de manera inmediata escribiendo en el Bash Git las siguientes opciones y presionando enter:
+--- $ git config --global user.name "TU NOMBRE"
+--- $ git config --global user.name "tucorreo@correo.com"
+--- Si usas VS Code...    $ git config --global user.name "code --wait"
+--- Si usa Windows...     $ git config --global core.autocrlf true
+--- Si usa Linux o Mac... $ git config --global core.autocrlf input
+--- Con lo anterior finaliza la configuracion minima, y despues puedes ejecutar lo siguiente para verificar.
+--- $ git config --list (debe mostrarte los valores anteriormente configurados)
+--- $ git config --global -e (debe mostrate un mensaje de espera y abrir tu editor de texto configurado)
+--- $ git config -h (debe mostrate la ayuda y configuraciones posibles en Git)
+
+5) Integrar tu Git con un servicio de alojamiento en la nube.
+- Aqui puedes usar varios servicios como:
+-- Github, es el mas usado a como plan free con una filosofia de hacer publico tus desarrollos (ofrece version free o comercial).
+-- Gitlab, es usado a nivel de empresas ya que es pago.
+-- Bitbucket, es usado a nivel de empresa y free.
+- MI RECOMENDACION:
+-- Si deseas compartir tus ideas y desarrollos usa Github ya que es bueno y gratis. (como lo que ahora les comparto)
+-- Si no deseas compartir o se debe preservar la confidencialidad de tus desarrollos usa las otras 2 opciones.
+
+
+6) Escucha buena musica para concentrarte y avanzar.
+- MI RECOMENDACION:
+-- Ten en cuenta que podrias requerir tu pc para escuchar alguna video llamada o tutorial.
+-- Reproducir la musica de tu preferencia, usando otro dispotivo como ejemplo tu celular, otro pc o una radio.
+-- Dependiendo de tu genio, coloca el genero que mejor te deje concentrar o que mayor animo te de.
+
+... el futuro es tuyo!... solo debes empezarlo ahora!... seguimos en linea.
+
+
+6) Consideraciones con Saltos de linea.
+- Si usas windows, considera que al indicar un salto de linea el SO agregara dos marcas para indicar que corresponde a un salto de linea.
+-- CR (carriage return)
+-- LF (line feed)
+- Si usas Linux / Mac el SO solo agrega LF.
+- Conocer lo anterior te puede ahorrar tiempo en la solución de problemas.

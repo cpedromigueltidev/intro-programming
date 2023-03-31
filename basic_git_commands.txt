@@ -1,0 +1,20 @@
+- Inicializar un repositorio.
+$ cd your_folder/
+$ git init
+
+- Mostrar estado actual de tu repositorio.
+$ cd your_folder/
+$ git status
+
+- Seleccionar archivos untracked para pasarlos a la etapa "STAGE"
+$ cd your_folder/
+-- para un archivo especifico:                $ git add your_file.extension
+-- para varios archivos especificos:          $ git add your_file_1.extension your_file_2.extension
+-- para todos los archivos de una extension:  $ git add *.extension
+-- para todos los archivos y sub directorios  $ git add .
+-- Verificar si esta ultima opcion es necesaria o favorable.
+
+- Selecconar archivos en la etapa "STAGE" y hacer commit
+
+
+
